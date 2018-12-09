@@ -1,0 +1,34 @@
+{
+  "name": "brownie-reis",
+  "version": "1.0.0",
+  "description": "",
+  "proxy": "http://localhost:5000",
+  "engines": {
+    "node": "8.11.4"
+  },
+  "main": "loader.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index.js",
+    "start": "node loader.js",
+    "heroku-postbuild": "cd client && npm install && npm run build"
+  },
+  "keywords": [
+    "heroku"
+  ],
+  "author": "rdbarbosa",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cool-ascii-faces": "^1.3.4",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "express-query-int": "^3.0.0",
+    "lodash": "^4.17.10",
+    "mongoose": "^5.2.9",
+    "mongoose-paginate": "^5.0.3",
+    "node-restful": "^0.2.6",
+    "password-generator": "^2.2.0",
+    "pm2": "^3.0.4"
+  }
+}
