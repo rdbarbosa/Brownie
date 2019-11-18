@@ -25,7 +25,7 @@
     "express": "^4.16.3",
     "express-query-int": "^3.0.0",
     "lodash": "^4.17.10",
-    "mongoose": "^5.2.9",
+    "mongoose": "^5.7.5",
     "mongoose-paginate": "^5.0.3",
     "node-restful": "^0.2.6",
     "password-generator": "^2.2.0",
